@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(
 
 function App() {
 
+  
   useEffect(() => { fetch('http://localhost:8000').then(res => console.log('Res', res)).catch(err => console.log("Error", err)) }, [])
 
   return <div>Noor</div>
